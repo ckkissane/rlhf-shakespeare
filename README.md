@@ -3,7 +3,7 @@
 A transformer trained on the works of Shakespeare, then fine-tuned to generate positive sentiment samples using RLHF. 
 This is a suggested exercise from chapter 7 of this [deep_learning_curriculum](https://github.com/jacobhilton/deep_learning_curriculum/blob/master/7-Alignment.md).
 
-Here are some of samples after fine-tuning:
+Here are some unconditional samples after fine-tuning:
 
 
 ```
