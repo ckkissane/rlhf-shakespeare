@@ -1,0 +1,1815 @@
+pi_lr: 3e-05
+max_iters: 100
+batch_size: 100
+train_pi_iters: 4
+sample_len: 64
+num_eval_samples: 3
+shakespeare_corpus_path: ./data/100-0.txt
+data has 1980893 words, 34230 unique.
+device: cuda
+initial sample (before training): 
+to your Highness, this matter is of worth and most reverend gentleman of mine
+
+it: 0, avg ret: -1.7780547142028809
+clipfrac: 0.3985937535762787
+KL(cur_policy||orig_policy): 0.07357431203126907
+sqrt KL: 0.2712458516388206
+
+eval sample  0 : 
+Of such a sacred aspect: that shall share,
+That you, being galled unto the general malady,
+Shall first be planted by th’ estate, a athversary
+
+rew_probs tensor([0.1924, 0.8076], device='cuda:0')
+prob_happy tensor(0.8076, device='cuda:0')
+return tensor(-0.2137, device='cuda:0')
+
+eval sample  1 : 
+To suffer thee with affliction: Say thy mother is she
+That I to thy man, she did think
+As she told him gaz'd on him: first, my boy,
+
+rew_probs tensor([0.3021, 0.6979], device='cuda:0')
+prob_happy tensor(0.6979, device='cuda:0')
+return tensor(-0.3596, device='cuda:0')
+
+eval sample  2 : 
+More than pertains to feats to me. Man, Cleopatra,
+And let no man lay his friendly service to the death,
+Not known I. But since they saw his body,
+
+rew_probs tensor([0.9353, 0.0647], device='cuda:0')
+prob_happy tensor(0.0647, device='cuda:0')
+return tensor(-2.7375, device='cuda:0')
+saving policy
+
+it: 1, avg ret: -1.9132341146469116
+clipfrac: 0.2696875035762787
+KL(cur_policy||orig_policy): 0.030860019847750664
+sqrt KL: 0.1756702019346214
+
+eval sample  0 : 
+Must be, she on a foul lion’s whelp,
+Which, by a virgin, a pretty good vice,
+Would try with a sudden life into bondage!
+
+rew_probs tensor([0.7133, 0.2867], device='cuda:0')
+prob_happy tensor(0.2867, device='cuda:0')
+return tensor(-1.2495, device='cuda:0')
+
+eval sample  1 : 
+And your good will. Give me mine presently.
+
+ [_Exeunt._]
+
+ Enter Sir Toby and Fabian.
+
+SIR TOBY.
+Come, lead a little longer. Hold me. Good another’s buckram.
+
+FABIAN.
+Come, sir.
+
+
+rew_probs tensor([0.9847, 0.0153], device='cuda:0')
+prob_happy tensor(0.0153, device='cuda:0')
+return tensor(-4.1813, device='cuda:0')
+
+eval sample  2 : 
+Will cry ‘Choose! Iachimo, je vous,
+Leading us to their lords: Lye like angels!
+
+PROSPERO.
+Now, brave Egeus, take me; thou art fortunate up
+
+rew_probs tensor([0.8229, 0.1771], device='cuda:0')
+prob_happy tensor(0.1771, device='cuda:0')
+return tensor(-1.7311, device='cuda:0')
+saving policy
+
+it: 2, avg ret: -1.7919282913208008
+clipfrac: 0.23984374105930328
+KL(cur_policy||orig_policy): 0.0293340515345335
+sqrt KL: 0.17127186439848635
+
+eval sample  0 : 
+As he did draw it. Long stay’d he spoke,
+Or else he did oppose it. I do feel
+My lord, so he did turn to him.
+
+rew_probs tensor([0.9271, 0.0729], device='cuda:0')
+prob_happy tensor(0.0729, device='cuda:0')
+return tensor(-2.6188, device='cuda:0')
+
+eval sample  1 : 
+widower, my good liege, entertain, my dowry of you.
+Beseech you, both of your days to teach you youth;
+
+rew_probs tensor([0.3203, 0.6797], device='cuda:0')
+prob_happy tensor(0.6797, device='cuda:0')
+return tensor(-0.3861, device='cuda:0')
+
+eval sample  2 : 
+widower, his love will clasp the subject still themselves,
+And they will awake his eyeballs with such discourse
+Whiles my government pleasure with such watching!
+
+IAGO.
+
+rew_probs tensor([0.5112, 0.4888], device='cuda:0')
+prob_happy tensor(0.4888, device='cuda:0')
+return tensor(-0.7158, device='cuda:0')
+saving policy
+
+it: 3, avg ret: -1.840440034866333
+clipfrac: 0.1926562488079071
+KL(cur_policy||orig_policy): 0.02929903380572796
+sqrt KL: 0.17116960537936624
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+Nev'd by flaming order.
+
+THESEUS.
+Sir, the gods
+
+rew_probs tensor([0.6728, 0.3272], device='cuda:0')
+prob_happy tensor(0.3272, device='cuda:0')
+return tensor(-1.1172, device='cuda:0')
+
+eval sample  1 : 
+Did marry my father’s life.
+
+GLOUCESTER.
+O villain!
+Thou didst demand me, and they lay all by.
+
+KENT.
+I am mad, sir; better than by my kin.
+
+LEAR.
+
+rew_probs tensor([0.6771, 0.3229], device='cuda:0')
+prob_happy tensor(0.3229, device='cuda:0')
+return tensor(-1.1304, device='cuda:0')
+
+eval sample  2 : 
+Of such a breeding.
+
+MENTEITH.
+He must think
+But we cannot him love. But see, our son
+In this weight, he must not die in this:
+
+rew_probs tensor([0.9512, 0.0488], device='cuda:0')
+prob_happy tensor(0.0488, device='cuda:0')
+return tensor(-3.0205, device='cuda:0')
+saving policy
+
+it: 4, avg ret: -1.7583836317062378
+clipfrac: 0.17578125
+KL(cur_policy||orig_policy): 0.0364660881459713
+sqrt KL: 0.1909609597430095
+
+eval sample  0 : 
+In his soft flank, whose wonted lily white          1053
+With purple tears that his cheeks rose, and falls on his back!
+
+IAGO.
+And what’s mine?
+
+EMILIA.
+
+rew_probs tensor([0.9383, 0.0617], device='cuda:0')
+prob_happy tensor(0.0617, device='cuda:0')
+return tensor(-2.7854, device='cuda:0')
+
+eval sample  1 : 
+more ado. Remember: “ston, well” and some league have I.
+And for these are not to deny their latest,
+Curses and honest men as men are short,
+
+rew_probs tensor([0.8642, 0.1358], device='cuda:0')
+prob_happy tensor(0.1358, device='cuda:0')
+return tensor(-1.9969, device='cuda:0')
+
+eval sample  2 : 
+As fits the bridal. Beshrew me the spirit I told you
+I’ll buy above the front, so far as you can look on you, for you must do it.
+
+MENAS.
+
+rew_probs tensor([0.6063, 0.3937], device='cuda:0')
+prob_happy tensor(0.3937, device='cuda:0')
+return tensor(-0.9321, device='cuda:0')
+saving policy
+
+it: 5, avg ret: -1.7256001234054565
+clipfrac: 0.1678124964237213
+KL(cur_policy||orig_policy): 0.0436306856572628
+sqrt KL: 0.2088795960769333
+
+eval sample  0 : 
+To try your Highness, but your own report
+May be too little. Sure though you went
+To play your thinking, and make your pastime
+
+rew_probs tensor([0.2275, 0.7725], device='cuda:0')
+prob_happy tensor(0.7725, device='cuda:0')
+return tensor(-0.2581, device='cuda:0')
+
+eval sample  1 : 
+To lean upon. Are they not alone, have you? You
+are they that mean strange?
+
+MARINA.
+You have.
+
+BAWD.
+As great a taste of strange ones, and yet as too light.
+
+
+rew_probs tensor([0.7812, 0.2188], device='cuda:0')
+prob_happy tensor(0.2188, device='cuda:0')
+return tensor(-1.5196, device='cuda:0')
+
+eval sample  2 : 
+again? The question is coming hither. If it be true you ought to determine us so
+well, we will not stand against his own charge. Come, lead your gates. Come on!
+
+
+rew_probs tensor([0.8824, 0.1176], device='cuda:0')
+prob_happy tensor(0.1176, device='cuda:0')
+return tensor(-2.1404, device='cuda:0')
+saving policy
+
+it: 6, avg ret: -1.653771162033081
+clipfrac: 0.1720312535762787
+KL(cur_policy||orig_policy): 0.04664624482393265
+sqrt KL: 0.21597741739342252
+
+eval sample  0 : 
+Which made you there.
+
+CLEOPATRA.
+Let them lack no more
+But you must bear me that I was drawn for that;
+
+rew_probs tensor([0.7192, 0.2808], device='cuda:0')
+prob_happy tensor(0.2808, device='cuda:0')
+return tensor(-1.2702, device='cuda:0')
+
+eval sample  1 : 
+imagine but to thy will. Come, go to, lets me.
+As I live, I will do, and now good for you
+Fool for an hour, to make a true shrift;
+
+rew_probs tensor([0.6232, 0.3768], device='cuda:0')
+prob_happy tensor(0.3768, device='cuda:0')
+return tensor(-0.9761, device='cuda:0')
+
+eval sample  2 : 
+To snare the nimble marmoset; you may frame
+A ; ‘ than a goddess, I can
+The heavenly sovereignty.
+
+FERDINAND.
+We may ourself all that you must amend;
+
+rew_probs tensor([0.2227, 0.7773], device='cuda:0')
+prob_happy tensor(0.7773, device='cuda:0')
+return tensor(-0.2519, device='cuda:0')
+saving policy
+
+it: 7, avg ret: -1.5001393556594849
+clipfrac: 0.14171874523162842
+KL(cur_policy||orig_policy): 0.061258845031261444
+sqrt KL: 0.24750524243187547
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes of the vilest: Let them alone,
+And beare th'l as they see the COUNTREYMAN
+
+rew_probs tensor([0.5548, 0.4452], device='cuda:0')
+prob_happy tensor(0.4452, device='cuda:0')
+return tensor(-0.8093, device='cuda:0')
+
+eval sample  1 : 
+widower; the hangman.             Enter the English EARL and the English Alexander both are there.
+
+GOWER.
+’Tis monstrous; you would I might have had my daughter to her;
+
+rew_probs tensor([0.3204, 0.6796], device='cuda:0')
+prob_happy tensor(0.6796, device='cuda:0')
+return tensor(-0.3863, device='cuda:0')
+
+eval sample  2 : 
+As well a gentleman and suitor like the offended that I have in my
+house; and you, being not my daughter that had the most loving knowledge, or that
+
+rew_probs tensor([0.6555, 0.3445], device='cuda:0')
+prob_happy tensor(0.3445, device='cuda:0')
+return tensor(-1.0655, device='cuda:0')
+saving policy
+
+it: 8, avg ret: -1.4552301168441772
+clipfrac: 0.16015625
+KL(cur_policy||orig_policy): 0.07950238138437271
+sqrt KL: 0.28196166651580973
+
+eval sample  0 : 
+Must not get ta’en; let them lie on his way
+Till he can line the crown a month
+And sends him justice.
+
+SURREY.
+The best and all that he loves,
+
+rew_probs tensor([0.9787, 0.0213], device='cuda:0')
+prob_happy tensor(0.0213, device='cuda:0')
+return tensor(-3.8504, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So get my love the Duke my son,
+And to him how I have heard him swear by
+A child of me; now, alas, how dearly she stickes
+
+rew_probs tensor([0.7111, 0.2889], device='cuda:0')
+prob_happy tensor(0.2889, device='cuda:0')
+return tensor(-1.2416, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But, if we do not shake.  [Exeunt.]
+
+SCENE 2.
+
+A Prison
+
+Enter three or three three or four four already, SERVINGMAN,
+
+rew_probs tensor([0.6190, 0.3810], device='cuda:0')
+prob_happy tensor(0.3810, device='cuda:0')
+return tensor(-0.9651, device='cuda:0')
+saving policy
+
+it: 9, avg ret: -1.082364797592163
+clipfrac: 0.13484375178813934
+KL(cur_policy||orig_policy): 0.11114915460348129
+sqrt KL: 0.3333903936880625
+
+eval sample  0 : 
+Becomes him nobly; he is whipped the devil and
+A princely spirit; and no wing stood by the cut troops and by again, as ’twere to draw him on
+
+rew_probs tensor([0.7807, 0.2193], device='cuda:0')
+prob_happy tensor(0.2193, device='cuda:0')
+return tensor(-1.5172, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes are sad.
+These are heere wild and manly as the sun grows creeping;
+
+rew_probs tensor([0.2281, 0.7719], device='cuda:0')
+prob_happy tensor(0.7719, device='cuda:0')
+return tensor(-0.2589, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, this being dead,
+
+rew_probs tensor([0.3616, 0.6384], device='cuda:0')
+prob_happy tensor(0.6384, device='cuda:0')
+return tensor(-0.4487, device='cuda:0')
+saving policy
+
+it: 10, avg ret: -0.8922272324562073
+clipfrac: 0.10953124612569809
+KL(cur_policy||orig_policy): 0.13921819627285004
+sqrt KL: 0.3731195468919446
+
+eval sample  0 : 
+As well a gentleman as I am ignorant
+By the forfeit of our island.
+Look, let us see, let’s hear;
+We were in that old alarms and not a fable.
+
+
+rew_probs tensor([0.9019, 0.0981], device='cuda:0')
+prob_happy tensor(0.0981, device='cuda:0')
+return tensor(-2.3219, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth did make him sad,
+His eye, his tongue every bush:
+
+rew_probs tensor([0.1394, 0.8606], device='cuda:0')
+prob_happy tensor(0.8606, device='cuda:0')
+return tensor(-0.1501, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth did make him sad,
+And sadnes, merry; those darker humours
+
+rew_probs tensor([0.4862, 0.5138], device='cuda:0')
+prob_happy tensor(0.5138, device='cuda:0')
+return tensor(-0.6659, device='cuda:0')
+saving policy
+
+it: 11, avg ret: -0.651340663433075
+clipfrac: 0.09781249612569809
+KL(cur_policy||orig_policy): 0.15436102449893951
+sqrt KL: 0.3928880559382526
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth:
+But Palamons sadnes comes the kinde of the victory,
+As if she were as true in Rome as as the Princes,
+
+rew_probs tensor([0.5210, 0.4790], device='cuda:0')
+prob_happy tensor(0.4790, device='cuda:0')
+return tensor(-0.7360, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth did make their skins,
+Before him to his own life:
+
+rew_probs tensor([0.8356, 0.1644], device='cuda:0')
+prob_happy tensor(0.1644, device='cuda:0')
+return tensor(-1.8054, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold more noble kinesman,
+
+rew_probs tensor([0.9040, 0.0960], device='cuda:0')
+prob_happy tensor(0.0960, device='cuda:0')
+return tensor(-2.3434, device='cuda:0')
+saving policy
+
+it: 12, avg ret: -0.7348406910896301
+clipfrac: 0.09781249612569809
+KL(cur_policy||orig_policy): 0.17233896255493164
+sqrt KL: 0.4151372815767474
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, or take for her;
+
+rew_probs tensor([0.2294, 0.7706], device='cuda:0')
+prob_happy tensor(0.7706, device='cuda:0')
+return tensor(-0.2606, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, and make good
+
+rew_probs tensor([0.4385, 0.5615], device='cuda:0')
+prob_happy tensor(0.5615, device='cuda:0')
+return tensor(-0.5772, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, and chance t's loss,
+
+rew_probs tensor([0.0937, 0.9063], device='cuda:0')
+prob_happy tensor(0.9063, device='cuda:0')
+return tensor(-0.0984, device='cuda:0')
+saving policy
+
+it: 13, avg ret: -0.5676591396331787
+clipfrac: 0.06671874970197678
+KL(cur_policy||orig_policy): 0.18685998022556305
+sqrt KL: 0.43227303897601926
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of blood,
+So mingled, as if, as I may, for if I should be as well
+
+rew_probs tensor([0.1151, 0.8849], device='cuda:0')
+prob_happy tensor(0.8849, device='cuda:0')
+return tensor(-0.1222, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, chance does in my face,
+
+rew_probs tensor([0.1088, 0.8912], device='cuda:0')
+prob_happy tensor(0.8912, device='cuda:0')
+return tensor(-0.1152, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth did make him sad,
+
+rew_probs tensor([0.4887, 0.5113], device='cuda:0')
+prob_happy tensor(0.5113, device='cuda:0')
+return tensor(-0.6708, device='cuda:0')
+saving policy
+
+it: 14, avg ret: -0.5248679518699646
+clipfrac: 0.08890625089406967
+KL(cur_policy||orig_policy): 0.20150940120220184
+sqrt KL: 0.44889798529532504
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, or never rise,
+Roses for Voltemand.  [To the two Gentlemen.]
+
+
+rew_probs tensor([0.5194, 0.4806], device='cuda:0')
+prob_happy tensor(0.4806, device='cuda:0')
+return tensor(-0.7327, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, and make him sad,
+
+rew_probs tensor([0.2652, 0.7348], device='cuda:0')
+prob_happy tensor(0.7348, device='cuda:0')
+return tensor(-0.3081, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as I see mirth is in
+
+rew_probs tensor([0.0544, 0.9456], device='cuda:0')
+prob_happy tensor(0.9456, device='cuda:0')
+return tensor(-0.0559, device='cuda:0')
+saving policy
+
+it: 15, avg ret: -0.5455922484397888
+clipfrac: 0.07656250149011612
+KL(cur_policy||orig_policy): 0.2139681577682495
+sqrt KL: 0.46256692247527764
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+
+rew_probs tensor([0.2801, 0.7199], device='cuda:0')
+prob_happy tensor(0.7199, device='cuda:0')
+return tensor(-0.3287, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, needs his use to daunce
+
+rew_probs tensor([0.3407, 0.6593], device='cuda:0')
+prob_happy tensor(0.6593, device='cuda:0')
+return tensor(-0.4166, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of love
+To leave the enemy, and for her use
+
+rew_probs tensor([0.3261, 0.6739], device='cuda:0')
+prob_happy tensor(0.6739, device='cuda:0')
+return tensor(-0.3946, device='cuda:0')
+saving policy
+
+it: 16, avg ret: -0.4563721716403961
+clipfrac: 0.07828124612569809
+KL(cur_policy||orig_policy): 0.22766517102718353
+sqrt KL: 0.47714271557594123
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth; tip close.
+
+rew_probs tensor([0.6524, 0.3476], device='cuda:0')
+prob_happy tensor(0.3476, device='cuda:0')
+return tensor(-1.0567, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, and chance of feathers;
+
+rew_probs tensor([0.1806, 0.8194], device='cuda:0')
+prob_happy tensor(0.8194, device='cuda:0')
+return tensor(-0.1992, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth did make him sad,
+
+rew_probs tensor([0.2005, 0.7995], device='cuda:0')
+prob_happy tensor(0.7995, device='cuda:0')
+return tensor(-0.2237, device='cuda:0')
+saving policy
+
+it: 17, avg ret: -0.4453786611557007
+clipfrac: 0.08421874791383743
+KL(cur_policy||orig_policy): 0.25981900095939636
+sqrt KL: 0.509724436298081
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as I should love a lion;
+
+rew_probs tensor([0.0402, 0.9598], device='cuda:0')
+prob_happy tensor(0.9598, device='cuda:0')
+return tensor(-0.0411, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as You will not die
+With venerable suit of estate.
+
+rew_probs tensor([0.5850, 0.4150], device='cuda:0')
+prob_happy tensor(0.4150, device='cuda:0')
+return tensor(-0.8795, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes wherein he comes to see the hearts
+Of comfort; which to make him his stand,
+
+rew_probs tensor([0.2617, 0.7383], device='cuda:0')
+prob_happy tensor(0.7383, device='cuda:0')
+return tensor(-0.3034, device='cuda:0')
+saving policy
+
+it: 18, avg ret: -0.3886415958404541
+clipfrac: 0.09687499701976776
+KL(cur_policy||orig_policy): 0.2780971825122833
+sqrt KL: 0.5273492035760396
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as you will presently.
+
+rew_probs tensor([0.3454, 0.6546], device='cuda:0')
+prob_happy tensor(0.6546, device='cuda:0')
+return tensor(-0.4238, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's meaning mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth; stint Boyes'd of mirth,
+
+rew_probs tensor([0.1246, 0.8754], device='cuda:0')
+prob_happy tensor(0.8754, device='cuda:0')
+return tensor(-0.1331, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde and mirth,
+So mingled, as if, as we see, will use the deer for the pay,
+
+rew_probs tensor([0.2022, 0.7978], device='cuda:0')
+prob_happy tensor(0.7978, device='cuda:0')
+return tensor(-0.2259, device='cuda:0')
+saving policy
+
+it: 19, avg ret: -0.2572299540042877
+clipfrac: 0.08359374850988388
+KL(cur_policy||orig_policy): 0.3033989667892456
+sqrt KL: 0.5508166362676835
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, shall make for use of him;
+
+rew_probs tensor([0.3559, 0.6441], device='cuda:0')
+prob_happy tensor(0.6441, device='cuda:0')
+return tensor(-0.4399, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth; use in PALAMON love;
+
+rew_probs tensor([0.3577, 0.6423], device='cuda:0')
+prob_happy tensor(0.6423, device='cuda:0')
+return tensor(-0.4427, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons's a cunning that's most beauteous Duke;
+A sacred Till he wore every article my name,
+
+rew_probs tensor([0.1170, 0.8830], device='cuda:0')
+prob_happy tensor(0.8830, device='cuda:0')
+return tensor(-0.1244, device='cuda:0')
+saving policy
+
+it: 20, avg ret: -0.317393958568573
+clipfrac: 0.07999999821186066
+KL(cur_policy||orig_policy): 0.3432939350605011
+sqrt KL: 0.5859129074022018
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0918, 0.9082], device='cuda:0')
+prob_happy tensor(0.9082, device='cuda:0')
+return tensor(-0.0963, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as I doe.  [Florish.]
+
+
+rew_probs tensor([0.3662, 0.6338], device='cuda:0')
+prob_happy tensor(0.6338, device='cuda:0')
+return tensor(-0.4560, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as I hope, may as well be;
+
+rew_probs tensor([0.1648, 0.8352], device='cuda:0')
+prob_happy tensor(0.8352, device='cuda:0')
+return tensor(-0.1801, device='cuda:0')
+saving policy
+
+it: 21, avg ret: -0.2660429775714874
+clipfrac: 0.09265624731779099
+KL(cur_policy||orig_policy): 0.351300984621048
+sqrt KL: 0.5927064911244417
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if, as love for use of love;
+
+rew_probs tensor([0.0420, 0.9580], device='cuda:0')
+prob_happy tensor(0.9580, device='cuda:0')
+return tensor(-0.0429, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+So Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, or shall be in love:
+
+rew_probs tensor([0.0219, 0.9781], device='cuda:0')
+prob_happy tensor(0.9781, device='cuda:0')
+return tensor(-0.0221, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+
+rew_probs tensor([0.0658, 0.9342], device='cuda:0')
+prob_happy tensor(0.9342, device='cuda:0')
+return tensor(-0.0681, device='cuda:0')
+saving policy
+
+it: 22, avg ret: -0.2170826941728592
+clipfrac: 0.0715624988079071
+KL(cur_policy||orig_policy): 0.382466197013855
+sqrt KL: 0.6184385151442745
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0135, 0.9865], device='cuda:0')
+prob_happy tensor(0.9865, device='cuda:0')
+return tensor(-0.0136, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for'em to every place
+
+rew_probs tensor([0.1403, 0.8597], device='cuda:0')
+prob_happy tensor(0.8597, device='cuda:0')
+return tensor(-0.1512, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's's love bark, make good man
+He shall not only see his: That Hostler not loose for't; or, to conclude in him,
+
+rew_probs tensor([0.5248, 0.4752], device='cuda:0')
+prob_happy tensor(0.4752, device='cuda:0')
+return tensor(-0.7440, device='cuda:0')
+saving policy
+
+it: 23, avg ret: -0.2694985866546631
+clipfrac: 0.06749999523162842
+KL(cur_policy||orig_policy): 0.4099429249763489
+sqrt KL: 0.6402678540863572
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0904, 0.9096], device='cuda:0')
+prob_happy tensor(0.9096, device='cuda:0')
+return tensor(-0.0948, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of mirth:
+
+rew_probs tensor([0.2507, 0.7493], device='cuda:0')
+prob_happy tensor(0.7493, device='cuda:0')
+return tensor(-0.2887, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's mirth.  [Fight to her ears]  My fair cousin!
+Your goods in love must acquire no unkindness but blush's time.
+
+rew_probs tensor([0.4655, 0.5345], device='cuda:0')
+prob_happy tensor(0.5345, device='cuda:0')
+return tensor(-0.6264, device='cuda:0')
+saving policy
+
+it: 24, avg ret: -0.2250882089138031
+clipfrac: 0.05953124910593033
+KL(cur_policy||orig_policy): 0.463926762342453
+sqrt KL: 0.6811216942239126
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0202, 0.9798], device='cuda:0')
+prob_happy tensor(0.9798, device='cuda:0')
+return tensor(-0.0204, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.1253, 0.8747], device='cuda:0')
+prob_happy tensor(0.8747, device='cuda:0')
+return tensor(-0.1338, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 25, avg ret: -0.19572943449020386
+clipfrac: 0.06859374791383743
+KL(cur_policy||orig_policy): 0.4827202558517456
+sqrt KL: 0.6947807250145513
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0418, 0.9582], device='cuda:0')
+prob_happy tensor(0.9582, device='cuda:0')
+return tensor(-0.0427, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is by the best
+  With modest conscience, which are higher by'th'apprehension,
+
+rew_probs tensor([0.6068, 0.3932], device='cuda:0')
+prob_happy tensor(0.3932, device='cuda:0')
+return tensor(-0.9334, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So was't not born to love him?
+
+Perchance his SERVANT.
+It is a wench, such a love as you will;
+
+rew_probs tensor([0.1026, 0.8974], device='cuda:0')
+prob_happy tensor(0.8974, device='cuda:0')
+return tensor(-0.1083, device='cuda:0')
+saving policy
+
+it: 26, avg ret: -0.14406220614910126
+clipfrac: 0.04234375059604645
+KL(cur_policy||orig_policy): 0.5212982296943665
+sqrt KL: 0.7220098542917309
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love:
+
+rew_probs tensor([0.0063, 0.9937], device='cuda:0')
+prob_happy tensor(0.9937, device='cuda:0')
+return tensor(-0.0063, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0280, 0.9720], device='cuda:0')
+prob_happy tensor(0.9720, device='cuda:0')
+return tensor(-0.0284, device='cuda:0')
+saving policy
+
+it: 27, avg ret: -0.08148400485515594
+clipfrac: 0.04593749716877937
+KL(cur_policy||orig_policy): 0.5549677014350891
+sqrt KL: 0.7449615435947611
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So soon as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use to every
+
+rew_probs tensor([0.0111, 0.9889], device='cuda:0')
+prob_happy tensor(0.9889, device='cuda:0')
+return tensor(-0.0111, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 28, avg ret: -0.06060692295432091
+clipfrac: 0.035624999552965164
+KL(cur_policy||orig_policy): 0.5977262258529663
+sqrt KL: 0.773127561177951
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 29, avg ret: -0.02077682688832283
+clipfrac: 0.03593749925494194
+KL(cur_policy||orig_policy): 0.5983908176422119
+sqrt KL: 0.7735572491045585
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 30, avg ret: -0.03798050060868263
+clipfrac: 0.029374999925494194
+KL(cur_policy||orig_policy): 0.6078796982765198
+sqrt KL: 0.7796664019159218
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 31, avg ret: -0.04471798241138458
+clipfrac: 0.009687500074505806
+KL(cur_policy||orig_policy): 0.6048940420150757
+sqrt KL: 0.7777493439502702
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0839, 0.9161], device='cuda:0')
+prob_happy tensor(0.9161, device='cuda:0')
+return tensor(-0.0876, device='cuda:0')
+saving policy
+
+it: 32, avg ret: -0.01514357328414917
+clipfrac: 0.007968749850988388
+KL(cur_policy||orig_policy): 0.6202223300933838
+sqrt KL: 0.7875419544972724
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, use for use of love;
+
+rew_probs tensor([0.0066, 0.9934], device='cuda:0')
+prob_happy tensor(0.9934, device='cuda:0')
+return tensor(-0.0066, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 33, avg ret: -0.026318591088056564
+clipfrac: 0.010468749329447746
+KL(cur_policy||orig_policy): 0.6215739846229553
+sqrt KL: 0.7883996350981876
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 34, avg ret: -0.011491655372083187
+clipfrac: 0.004218749701976776
+KL(cur_policy||orig_policy): 0.6226051449775696
+sqrt KL: 0.7890533220116177
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 35, avg ret: -0.04962070286273956
+clipfrac: 0.0228124987334013
+KL(cur_policy||orig_policy): 0.6132034659385681
+sqrt KL: 0.7830730910576408
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 36, avg ret: -0.019204599782824516
+clipfrac: 0.01953125
+KL(cur_policy||orig_policy): 0.6221942901611328
+sqrt KL: 0.7887929323727063
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as's mirth, use for use of love;
+
+rew_probs tensor([0.0050, 0.9950], device='cuda:0')
+prob_happy tensor(0.9950, device='cuda:0')
+return tensor(-0.0050, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 37, avg ret: -0.03580183908343315
+clipfrac: 0.01531249936670065
+KL(cur_policy||orig_policy): 0.628917932510376
+sqrt KL: 0.7930434619302879
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 38, avg ret: -0.047480277717113495
+clipfrac: 0.027187500149011612
+KL(cur_policy||orig_policy): 0.6263408660888672
+sqrt KL: 0.7914169988627153
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 39, avg ret: -0.010645577684044838
+clipfrac: 0.0043750000186264515
+KL(cur_policy||orig_policy): 0.6125938296318054
+sqrt KL: 0.7826837353821819
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 40, avg ret: -0.023557929322123528
+clipfrac: 0.01531249936670065
+KL(cur_policy||orig_policy): 0.6245924234390259
+sqrt KL: 0.7903115989526067
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 41, avg ret: -0.038302067667245865
+clipfrac: 0.01874999888241291
+KL(cur_policy||orig_policy): 0.6298385262489319
+sqrt KL: 0.7936236678986659
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, use for use of love;
+
+rew_probs tensor([0.0066, 0.9934], device='cuda:0')
+prob_happy tensor(0.9934, device='cuda:0')
+return tensor(-0.0066, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0816, 0.9184], device='cuda:0')
+prob_happy tensor(0.9184, device='cuda:0')
+return tensor(-0.0852, device='cuda:0')
+saving policy
+
+it: 42, avg ret: -0.011328271590173244
+clipfrac: 0.012187499552965164
+KL(cur_policy||orig_policy): 0.623240053653717
+sqrt KL: 0.7894555425441746
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 43, avg ret: -0.011883817613124847
+clipfrac: 0.014218749478459358
+KL(cur_policy||orig_policy): 0.6203305721282959
+sqrt KL: 0.7876106729395532
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love:
+
+rew_probs tensor([0.0063, 0.9937], device='cuda:0')
+prob_happy tensor(0.9937, device='cuda:0')
+return tensor(-0.0063, device='cuda:0')
+saving policy
+
+it: 44, avg ret: -0.03182361274957657
+clipfrac: 0.008750000037252903
+KL(cur_policy||orig_policy): 0.6255019903182983
+sqrt KL: 0.7908868378714482
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 45, avg ret: -0.00826288666576147
+clipfrac: 0.007656249683350325
+KL(cur_policy||orig_policy): 0.6310209035873413
+sqrt KL: 0.7943682418043544
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, use for use of love;
+
+rew_probs tensor([0.0066, 0.9934], device='cuda:0')
+prob_happy tensor(0.9934, device='cuda:0')
+return tensor(-0.0066, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for for use of use;
+
+rew_probs tensor([0.0852, 0.9148], device='cuda:0')
+prob_happy tensor(0.9148, device='cuda:0')
+return tensor(-0.0890, device='cuda:0')
+saving policy
+
+it: 46, avg ret: -0.016306476667523384
+clipfrac: 0.009218749590218067
+KL(cur_policy||orig_policy): 0.6204981207847595
+sqrt KL: 0.7877170309094247
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, use for use of love;
+
+rew_probs tensor([0.0066, 0.9934], device='cuda:0')
+prob_happy tensor(0.9934, device='cuda:0')
+return tensor(-0.0066, device='cuda:0')
+saving policy
+
+it: 47, avg ret: -0.033495064824819565
+clipfrac: 0.007187499664723873
+KL(cur_policy||orig_policy): 0.6278446316719055
+sqrt KL: 0.7923664756108157
+
+eval sample  0 : 
+Becomes
+    His too Perdita if his head find, he should still
+    utter a liberal star. If imprisonment, had gone,
+    He's all the better leave of the honour,
+
+rew_probs tensor([0.0929, 0.9071], device='cuda:0')
+prob_happy tensor(0.9071, device='cuda:0')
+return tensor(-0.0975, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 48, avg ret: -0.010323325172066689
+clipfrac: 0.004062499850988388
+KL(cur_policy||orig_policy): 0.6243366003036499
+sqrt KL: 0.790149732837802
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do't we,
+(When if our fortunes seem'd at your supposing,
+Each never labour'd modest 'False.  I do not like
+
+rew_probs tensor([0.4923, 0.5077], device='cuda:0')
+prob_happy tensor(0.5077, device='cuda:0')
+return tensor(-0.6778, device='cuda:0')
+saving policy
+
+it: 49, avg ret: -0.02239092066884041
+clipfrac: 0.007968749850988388
+KL(cur_policy||orig_policy): 0.6328220367431641
+sqrt KL: 0.7955011230307372
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 50, avg ret: -0.023982523009181023
+clipfrac: 0.009531250223517418
+KL(cur_policy||orig_policy): 0.6420863270759583
+sqrt KL: 0.8013028934653601
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
+
+it: 51, avg ret: -0.03117307648062706
+clipfrac: 0.010781249962747097
+KL(cur_policy||orig_policy): 0.6257197260856628
+sqrt KL: 0.7910244788157083
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of use;
+
+rew_probs tensor([0.0082, 0.9918], device='cuda:0')
+prob_happy tensor(0.9918, device='cuda:0')
+return tensor(-0.0082, device='cuda:0')
+saving policy
+
+it: 52, avg ret: -0.030433159321546555
+clipfrac: 0.009843749925494194
+KL(cur_policy||orig_policy): 0.6260342001914978
+sqrt KL: 0.791223230315881
+
+eval sample  0 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  1 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+
+eval sample  2 : 
+Becomes him nobly; So do's Arcites mirth,
+But Palamons sadnes is a kinde of mirth,
+So mingled, as if mirth, hold for use of love;
+
+rew_probs tensor([0.0070, 0.9930], device='cuda:0')
+prob_happy tensor(0.9930, device='cuda:0')
+return tensor(-0.0071, device='cuda:0')
+saving policy
